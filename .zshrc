@@ -5,3 +5,7 @@ fi
 
 export PATH=$PATH:/Users/kamol/bin
 eval "$(direnv hook zsh)"
+
+# Emacs
+alias e="emacs -nw"
+export EDITOR=e
